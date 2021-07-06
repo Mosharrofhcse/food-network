@@ -12,9 +12,8 @@ body{
     padding-left: 2%;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
 }
-
 .order-button{
     text-decoration: none;
     padding: 10px 40px;
@@ -24,8 +23,11 @@ body{
     border-radius: 50px;
 }
 h1{
-    font-size: 45px;
+    font-size: 50px;
     line-height: .75;
+}
+h2{
+    font-size: 35px;
 }
 p{
     text-align: justify;
@@ -41,6 +43,34 @@ p{
     background-size: 100%;
 }
 #image-size{
-    width: 60%;
+    width: 63%;
     padding-left: 30%;
+}
+.one-third-width{
+    width: 35%;
+    margin-left: 4%;    
+    margin-right: 2%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.one-third-width img{
+    width: 90%;
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    height: 150px;
+    padding-top: 5px;
+}
+
+footer p{
+    text-align: center;    
+    color: white;
+}
+#span-color{
+    color:slategrey;
 }
