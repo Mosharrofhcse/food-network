@@ -27,3 +27,20 @@ h1{
     font-size: 45px;
     line-height: .75;
 }
+p{
+    text-align: justify;
+    padding: 10px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.middle-section{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#image-size{
+    width: 60%;
+    padding-left: 30%;
+}
