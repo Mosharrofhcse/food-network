@@ -1,6 +1,8 @@
 body{
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Merriweather', serif;
+
 }
 .spna-class{
     color: orange;
@@ -46,12 +48,17 @@ p{
     width: 63%;
     padding-left: 30%;
 }
+#text-decoration{
+    text-align: center; 
+    padding-left: 20%; 
+    padding-right: 20%;
+}
 .one-third-width{
     width: 35%;
     margin-left: 4%;    
     margin-right: 2%;
     padding-left: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 10px 10px 40px gray;
 }
 .one-third-width img{
@@ -60,11 +67,31 @@ p{
     padding-top: 5%;
     padding-bottom: 5%;
 }
+.bonus-section{    
+    width: 93%;
+    height: 40%;
+    margin-left: 4%;    
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+#bonus-image{
+    width: 40%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+}
+.social-area{
+    text-align: center;
+    line-height: 2.5;
+}
 footer{
     background-color: black;
     text-align: center;
     height: 150px;
     padding-top: 5px;
+    line-height: .5;
 }
 
 footer p{
